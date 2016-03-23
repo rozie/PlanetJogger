@@ -2,6 +2,7 @@ PlanetJogger
 ========
 This is set of files (config files, templates, etc.) used to create PlanetJogger - a feed
 agregator of blogs that once was hosted on blog site jogger.pl.
+Test version is avaliable at https://zakr.es/planetjogger/
 
 Requirements
 ---------
