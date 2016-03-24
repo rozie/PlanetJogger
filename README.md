@@ -30,3 +30,12 @@ Usage
 * clone this repository
 * adjust config file (look for CHANGME)
 * run planet planet-jogger.ini and observe the output
+
+TODO
+---------
+* HIGH add Jogger favicon and graphics (header, footer) when they are published with license
+* HIGH add introduction so random people will learn what is this planet about
+* MEDIUM play with colors so planet reminds Jogger a bit
+* LOW consider using rebase, not hardcoded path
+* LOW consider using excerpt to shorten articles and remove images for feed
+* LOW consider using excerpt to shorten articles and remove images for body
