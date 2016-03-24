@@ -8,7 +8,7 @@ Requirements
 ---------
 * working web server (apache/lighttpd/nginx)
 * Linux with shell access
-* Planet Venus installed (planet-venus package in Debian, tested with 0~git9de2109-3 version and Debian Jessie)
+* Planet Venus https://github.com/rubys/venus installed (planet-venus package in Debian, tested with 0~git9de2109-3 version and Debian Jessie)
 * xsltproc installed
 
 Rules
