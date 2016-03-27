@@ -24,6 +24,8 @@ Files
 * planet-jogger.ini - planet config file
 * index.html.tmpl - main page template file
 * atom.xml.xslt - original file from planet venus is used
+* jogger_migration.txt - file with data about old Jogger blogs and new ones
+* make_ini.pl - helper to generate .ini file in alphabetical order (perl make_ini.pl < jogger_migration.txt)
 
 Usage
 ---------
