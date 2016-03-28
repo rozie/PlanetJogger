@@ -20,8 +20,27 @@ h1,.feedflare{display:none}
 ul{list-style:none;margin-left:0;padding-left:0}
 li{clear:both}
 .content{margin:1em 40px}
+.content.trimmed{max-height: 312pt; overflow: hidden;}
+.hidden {display: none}
 img{max-width:100%;height:auto;width:auto\9;border:0}
 </style>
+<script type="text/javascript">
+function show(elem) {
+	elem.className = 'hidden';
+	elem.parentElement.previousSibling.className = 'content';
+
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	var contentElements = document.getElementsByClassName('content');
+	for( var i = 0; i < contentElements.length; i++ ) {
+		if( contentElements[i].clientHeight > 450 ) {
+			contentElements[i].className += ' trimmed';
+			contentElements[i].nextSibling.className = '';
+		}
+	}
+});
+</script>
 </head>
 <body>
 <h1><TMPL_VAR name></h1>
@@ -29,7 +48,7 @@ img{max-width:100%;height:auto;width:auto\9;border:0}
 <TMPL_LOOP Items>
 <li<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
 <h2><a class=author href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name ESCAPE="HTML"></a><TMPL_IF title> <a<TMPL_IF link> href="<TMPL_VAR link ESCAPE="HTML">"</TMPL_IF><TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><TMPL_VAR title></a></h2></TMPL_IF>
-<TMPL_IF content><div class="content"><TMPL_VAR content></div></TMPL_IF>
+<TMPL_IF content><div class="content"><TMPL_VAR content></div><p class="hidden"><a href="javascript:void(0)" onclick="show(this)">Show all</a></p></TMPL_IF>
 </li>
 </TMPL_LOOP>
 </ul>
