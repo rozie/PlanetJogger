@@ -23,3 +23,5 @@ http://barthalion.jogger.pl/ http://blog.bpiotrowski.pl/ http://blog.bpiotrowski
 http://bagienny.jogger.pl/ http://bagienny.wordpress.com/ https://bagienny.wordpress.com/feed/ bagienny
 http://blog.predictor.org.pl/ http://blog.predictor.org.pl/ http://feeds2.feedburner.com/BranchPrediction branch-prediction
 http://rozie.jogger.pl/ http://rozie.blox.pl/ http://rozie.blox.pl/rss2 rozie
+http://takiegadanie.jogger.pl/ https://takiegadanie.wordpress.com/ https://takiegadanie.wordpress.com/feed/ takiegadanie
+http://daromar.jogger.pl/ https://daromaar.wordpress.com/ https://daromaar.wordpress.com/feed/ daromar
