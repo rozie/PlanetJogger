@@ -26,3 +26,5 @@ http://rozie.jogger.pl/ http://rozie.blox.pl/ http://rozie.blox.pl/rss2 rozie
 http://takiegadanie.jogger.pl/ https://takiegadanie.wordpress.com/ https://takiegadanie.wordpress.com/feed/ takiegadanie
 http://daromar.jogger.pl/ https://daromaar.wordpress.com/ https://daromaar.wordpress.com/feed/ daromar
 http://mt3o.jogger.pl/ http://blog.mt3o.it/ http://blog.mt3o.it/feed/ mt3o
+http://ejdzej.jogger.pl/ https://ejdzejblog.wordpress.com/ https://ejdzejblog.wordpress.com/feed/ ejdzej
+http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/eclare zar
