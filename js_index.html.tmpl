@@ -20,8 +20,37 @@ h1,.feedflare{display:none}
 ul{list-style:none;margin-left:0;padding-left:0}
 li{clear:both}
 .content{margin:1em 40px}
+.content.trimmed{max-height: 312pt; overflow: hidden;}
+button.toggle{background: none;border: none;cursor: pointer;text-decoration: underline}
 img{max-width:100%;height:auto;width:auto\9;border:0}
 </style>
+<script type="text/javascript">
+function toggle(elem) {
+
+	if (elem.previousSibling.className == 'content') {
+		elem.innerHTML = 'Show all';
+		elem.previousSibling.className = 'content trimmed';
+	}
+	else {
+		elem.innerHTML = 'Hide';
+		elem.previousSibling.className = 'content';
+	}
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	var contentElements = document.getElementsByClassName('content');
+	for( var i = 0; i < contentElements.length; i++ ) {
+		if( contentElements[i].clientHeight > 450 ) {
+			contentElements[i].className += ' trimmed';
+			var btn = document.createElement('button');
+			btn.innerHTML = 'Show all';
+			btn.className = 'toggle';
+			btn.onclick = function(e) { toggle(e.target); };
+			contentElements[i].parentElement.appendChild(btn);
+		}
+	}
+});
+</script>
 </head>
 <body>
 <h1><TMPL_VAR name></h1>
