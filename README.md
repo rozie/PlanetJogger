@@ -23,9 +23,11 @@ Files
 ---------
 * planet-jogger.ini - planet config file
 * index.html.tmpl - main page template file
+* js_index.html.tmpl - template file with JS to shorten visible part of articles (use this one or the one above)
 * atom.xml.xslt - original file from planet venus is used
 * jogger_migration.txt - file with data about old Jogger blogs and new ones
 * make_ini.pl - helper to generate .ini file in alphabetical order (perl make_ini.pl < jogger_migration.txt)
+* Dockrefile - helper to create test environment with Docker
 
 Usage
 ---------
