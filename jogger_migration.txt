@@ -31,5 +31,8 @@ http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/ecl
 http://szarak.org/ http://otwarteaudio.tk/ http://otwarteaudio.tk/feed/ szarak
 http://dozzie.jogger.pl/ TODO TODO dozzie
 http://zuzanka.blogitko.pl/ TODO TODO zuzanka
-http://wariat.jogger.pl/ https://kajecik.wordpress.com/ https://kajecik.wordpress.com/feed/ wariat
 http://psz.jogger.pl/ https://blog.patryk.net/ https://blog.patryk.net/feed/ psz
+http://mina86.jogger.pl/ http://mina86.com/ http://mina86.com/atom.xml mina86
+http://d33tah.net/ TODO TODO d33tah
+http://abadcafe.pl/ http://abadcafe.pl/ http://abadcafe.pl/rss abadcafe
+https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/rss.xml enotty
