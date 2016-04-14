@@ -36,3 +36,13 @@ http://mina86.jogger.pl/ http://mina86.com/ http://mina86.com/atom.xml mina86
 http://d33tah.net/ TODO TODO d33tah
 http://abadcafe.pl/ http://abadcafe.pl/ http://abadcafe.pl/rss abadcafe
 https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/rss.xml enotty
+http://koval.jogger.pl http://koval.com.pl/ http://koval.com.pl/feed/ koval
+http://nerdblog.jogger.pl http://nerdblog.pl/ http://nerdblog.pl/rss nerdblog
+http://ekrany.jogger.pl http://ekrany.org.pl http://ekrany.org.pl/rss ekrany.org.pl
+http://zdzichubg.jogger.pl https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/rss.xml zdzichubg
+http://evanrinya.jogger.pl http://nietransparentnie.pl http://feeds.feedburner.com/nietransparentnie evanrinya
+http://domel.jogger.pl/ https://blog.domelowo.pl/ https://blog.domelowo.pl/feed/ domel
+http://michalszafranski.jogger.pl/ http://www.michalszafranski.pl/ http://www.michalszafranski.pl/feed michalszafranski
+http://bialy.jogger.pl http://blog.rczajka.pl/ http://blog.rczajka.pl/rss bialy
+http://hibana.jogger.pl/ http://funisk.blogspot.ch/ http://funisk.blogspot.com/feeds/posts/default hibana
+http://w-wydychanym-powietrzu.jogger.pl/ http://blog.anoriell.eu/ http://feeds.feedburner.com/anorielljog anoriell
