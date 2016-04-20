@@ -13,7 +13,7 @@ http://kopytny.pl http://kopytny.pl http://kopytny.pl/feed/ kopytny
 http://radiowiec.jogger.pl http://blog.radiowiec.eu http://radiowiec.ovh.org/textpattern/index.php?atom=1 radiowiec
 http://lotta-rosie.jogger.pl/ http://lottamowi.wordpress.com https://lottamowi.wordpress.com/feed/ lotta-rosie
 http://sigvatr.jogger.pl https://sigvatrblog.wordpress.com/ https://sigvatrblog.wordpress.com/feed/ sigvatr
-http://jajcus.jogger.pl/ http://blog.jajcus.net/ http://blog.jajcus.net/feed/ jajcus
+http://jajcus.jogger.pl/ https://blog.jajcus.net/ https://blog.jajcus.net/feed/ jajcus
 http://zone.jogger.pl http://danielgabrys.blogspot.com/ http://danielgabrys.blogspot.com/feeds/posts/default/ zone
 http://shadzik.jogger.pl/ https://atwa.us/ http://atwa.us/feed/ shadzik
 http://citizen.jogger.pl/ http://karbownicki.com/ http://feeds.feedburner.com/karbownicki-com citizen
