@@ -47,3 +47,4 @@ http://bialy.jogger.pl http://blog.rczajka.pl/ http://blog.rczajka.pl/rss bialy
 http://hibana.jogger.pl/ http://funisk.blogspot.ch/ http://funisk.blogspot.com/feeds/posts/default hibana
 http://w-wydychanym-powietrzu.jogger.pl/ http://blog.anoriell.eu/ http://feeds.feedburner.com/anorielljog anoriell
 http://blog.gadawski.pl/ http://blog.gadawski.pl/ http://blog.gadawski.pl/feed/ dandys
+http://infro.jogger.pl https://infroblog.wordpress.com/ https://infroblog.wordpress.com/feed/ infro
