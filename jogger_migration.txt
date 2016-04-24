@@ -48,3 +48,4 @@ http://hibana.jogger.pl/ http://funisk.blogspot.ch/ http://funisk.blogspot.com/f
 http://w-wydychanym-powietrzu.jogger.pl/ http://blog.anoriell.eu/ http://feeds.feedburner.com/anorielljog anoriell
 http://blog.gadawski.pl/ http://blog.gadawski.pl/ http://blog.gadawski.pl/feed/ dandys
 http://infro.jogger.pl https://infroblog.wordpress.com/ https://infroblog.wordpress.com/feed/ infro
+http://adas.jogger.pl/ http://adamdziura.pl/blog/ http://adamdziura.pl/blog/feed/ adas
