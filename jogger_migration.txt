@@ -49,3 +49,4 @@ http://w-wydychanym-powietrzu.jogger.pl/ http://blog.anoriell.eu/ http://feeds.f
 http://blog.gadawski.pl/ http://blog.gadawski.pl/ http://blog.gadawski.pl/feed/ dandys
 http://infro.jogger.pl https://infroblog.wordpress.com/ https://infroblog.wordpress.com/feed/ infro
 http://adas.jogger.pl/ http://adamdziura.pl/blog/ http://adamdziura.pl/blog/feed/ adas
+http://katsu.jogger.pl/ http://katsu-and-life.weebly.com/ http://katsu-and-life.weebly.com/1/feed katsu
