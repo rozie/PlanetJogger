@@ -28,6 +28,9 @@ Files
 * jogger_migration.txt - file with data about old Jogger blogs and new ones
 * make_ini.pl - helper to generate .ini file in alphabetical order (perl make_ini.pl < jogger_migration.txt)
 * Dockrefile - helper to create test environment with Docker
+* filters
+    * remove-images.py - filter for removing all images
+	* replace-images.py - filter for replacing images with "[img]" hyperlink
 
 Usage
 ---------
