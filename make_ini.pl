@@ -9,12 +9,14 @@ use warnings;
 my %feeds=();
 
 while (<>){
-	chomp;
-	if (/(\S+)\s+(\S+)\s+(http\S+)\s+(\S+)/){
-		$feeds{$4}=$3;
-	}
-	else {
-		print "ERROR Wrong format in line: $_\n"
+	if (! /^#/){
+		chomp;
+		if (/(\S+)\s+(\S+)\s+(http\S+)\s+(\S+)/){
+			$feeds{$4}=$3;
+		}
+		else {
+			print "ERROR Wrong format in line: $_\n"
+		}
 	}
 }
 
