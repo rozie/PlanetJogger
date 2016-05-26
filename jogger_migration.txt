@@ -28,7 +28,7 @@ http://daromar.jogger.pl/ https://daromaar.wordpress.com/ https://daromaar.wordp
 http://mt3o.jogger.pl/ http://blog.mt3o.it/ http://blog.mt3o.it/feed/ mt3o
 http://ejdzej.jogger.pl/ https://ejdzejblog.wordpress.com/ https://ejdzejblog.wordpress.com/feed/ ejdzej
 http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/eclare zar
-http://szarak.org/ http://otwarteaudio.tk/ http://otwarteaudio.tk/feed/ szarak
+# http://szarak.org/ http://otwarteaudio.tk/ http://otwarteaudio.tk/feed/ szarak
 http://dozzie.jogger.pl/ TODO TODO dozzie
 http://zuzanka.blogitko.pl/ TODO TODO zuzanka
 http://psz.jogger.pl/ https://blog.patryk.net/ https://blog.patryk.net/feed/ psz
