@@ -28,6 +28,8 @@ Files
 * jogger_migration.txt - file with data about old Jogger blogs and new ones
 * make_ini.pl - helper to generate .ini file in alphabetical order (perl make_ini.pl < jogger_migration.txt)
 * Dockrefile - helper to create test environment with Docker
+* jogger_logo_mini.png - minified Jogger's logo to use on planet
+* joggerpl-logo.png - original Jogger's logo used in header (license unknown)
 
 Usage
 ---------
