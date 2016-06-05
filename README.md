@@ -43,3 +43,11 @@ TODO
 * LOW consider using rebase, not hardcoded path
 * LOW consider using excerpt to shorten articles and remove images for feed
 * LOW consider using excerpt to shorten articles and remove images for body
+
+How to commit
+---------
+* Fork repo on GitHub
+* Comment your changes
+* Send pull request
+* Use only upsteam Planet Venus engine (no changes in engine files!)
+* Stick to standards and minimal browser requirements (use HTML & CSS, avoid JS)
