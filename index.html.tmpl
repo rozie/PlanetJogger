@@ -16,35 +16,37 @@ h1,.feedflare{display:none}
 .horizontal,.simple li{margin:0;padding:0;list-style:none;display:inline}
 .simple li:before{content:"+ "}
 .simple > li:first-child:before{content:""}
-.author{text-decoration:none;display:block;float:right;margin-left:2em;font-size:small;background:#e8f4f8;color:#81a8b4;}}
+.author{text-decoration:none;margin-left:2em;font-size:small;background:#e8f4f8;color:#81a8b4;}}
 ul{list-style:none;margin-left:0;padding-left:0}
 li{clear:both}
 .content{margin:1em 40px}
 img{max-width:100%;height:auto;width:auto\9;border:0}
-.top_bar {height: 140px;width: 100%;background-color: #a2d1e0;border-top-width: 9px;border-top-style: solid;border-top-color: #ee4e4e;
-background-image: url(./jogger_logo_mini.png);background-repeat: no-repeat;background-position: 40px 0;}
 </style>
+<link rel="stylesheet" type="text/css" href="jogger-like.css" />
 </head>
 <body>
 <h1><TMPL_VAR name></h1>
 <div class=top_bar></div>
 <ul>
 <TMPL_LOOP Items>
-<li<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
-<h2><a class=author href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name ESCAPE="HTML"></a><TMPL_IF title> <a<TMPL_IF link> href="<TMPL_VAR link ESCAPE="HTML">"</TMPL_IF><TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><TMPL_VAR title></a></h2></TMPL_IF>
-<TMPL_IF content><div class="content"><TMPL_VAR content></div></TMPL_IF>
-</li>
-</TMPL_LOOP>
-</ul>
+                <li<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
+<h2 class=entry_head><TMPL_IF title> <a<TMPL_IF link> class=entry_title href="<TMPL_VAR link ESCAPE="HTML">"</TMPL_IF><TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><TMPL_VAR title></a>
+<a class=author href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name ESCAPE="HTML"></a></h2>
+</TMPL_IF>
+<TMPL_IF content>
+<div class="content"><TMPL_VAR content></div>
+<div class=fake_comments></div>
+</TMPL_IF></li>
+</TMPL_LOOP></ul>
+ 
 <hr>
+ 
 <div id=footer>
-<p>Planeta agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
+Planeta agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:
 <ul class="simple horizontal">
 <TMPL_LOOP Channels>
-<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
-</TMPL_LOOP>
-</ul>
-<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na głównej</a>.</p>
-</div>
+    <li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+</TMPL_LOOP></ul>
+Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na głównej</a>.</div>
 </body>
 </html>
