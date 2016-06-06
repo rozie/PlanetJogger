@@ -1,0 +1,36 @@
+
+/* in the target destination, put this file into generated html file folder */
+
+body {font-family: "Lucida Grande", "Lucida Sans Unicode", "Droid Sans", "Tahoma", sans-serif;}
+ 
+body ul {padding-left: 0;}
+ 
+body ul li {list-style-type: none;
+margin-bottom: 20px;
+border: 1px solid #a2d1e0;
+border-left: none;
+max-height: 30em;
+overflow: hidden;}
+ 
+body ul li a {text-decoration: none;}
+ 
+.entry_head {font-family: Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 1.86em;}
+ 
+.top_bar {height: 140px;
+width: 100%;
+background-color: #a2d1e0;
+border-top-width: 9px;
+border-top-style: solid;
+border-top-color: #ee4e4e;
+background-image: url(http://jogger.pl/t/s/i/joggerpl-logo.png);
+background-repeat: no-repeat;
+background-position: 40px 0;}
+ 
+a.author {margin-left: 0; padding: 5px;}
+ 
+.content {margin-left: 0;}
+ 
+.fake_comments {height: 28px;
+background-color: #e8f4f8;}
