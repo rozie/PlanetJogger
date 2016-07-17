@@ -30,7 +30,7 @@ http://ejdzej.jogger.pl/ https://ejdzejblog.wordpress.com/ https://ejdzejblog.wo
 http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/eclare zar
 # http://szarak.org/ http://otwarteaudio.tk/ http://otwarteaudio.tk/feed/ szarak
 http://dozzie.jogger.pl/ TODO TODO dozzie
-http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/ http://blogitko.pl/rss/feed.xml zuzanka
+http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/rss/feed.xml zuzanka
 http://psz.jogger.pl/ https://blog.patryk.net/ https://blog.patryk.net/feed/ psz
 http://mina86.jogger.pl/ http://mina86.com/ http://mina86.com/atom.xml mina86
 http://d33tah.net/ TODO TODO d33tah
