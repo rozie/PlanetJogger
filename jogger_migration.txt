@@ -50,3 +50,4 @@ http://blog.gadawski.pl/ http://blog.gadawski.pl/ http://blog.gadawski.pl/feed/ 
 http://infro.jogger.pl https://infroblog.wordpress.com/ https://infroblog.wordpress.com/feed/ infro
 http://adas.jogger.pl/ http://adamdziura.pl/blog/ http://adamdziura.pl/blog/feed/ adas
 http://katsu.jogger.pl/ http://katsu-and-life.weebly.com/ http://katsu-and-life.weebly.com/1/feed katsu
+http://blog.lrem.net/ http://blog.lrem.net/ http://blog.lrem.net/feed.xml lrem
