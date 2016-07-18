@@ -17,7 +17,7 @@ Rules
 * when possible, HTTPS should be used to grab the feed
 * if multiple feeds are available, full feed with articles should be chosen
 * please send changes as pull requests
-* this is test version, so please assume it will be published to /var/www/planetjogger and hosted on https://zakr.es/planetajoggera during tests
+* this is test version, so please assume it will be published to /var/www/planetjogger and hosted on https://zakr.es/planetjogger/ during tests
 
 Files
 ---------
