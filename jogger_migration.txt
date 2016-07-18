@@ -4,7 +4,6 @@ http://d9k.jogger.pl/ http://blog.d9k.info/ http://blog.d9k.info/feed/ d9k
 http://yazhubal.jogger.pl/ http://www.yazhubal.pl/blog/ http://yazhubal.pl/feed/ yazhubal
 http://kefyr.jogger.pl/ http://www.blog.artinet.one.pl/ http://www.blog.artinet.one.pl/feed/ kefyr
 http://krystek.jogger.pl/ http://www.krystek.art.pl/ TODO krystek
-http://blog.lrem.net/ http://blog.lrem.net/ TODO lrem
 http://blog.q84fh.net/ http://blog.q84fh.net/ http://blog.q84fh.net/feed/ q84fh
 http://torero.jogger.pl https://socjolocja.wordpress.com/ https://socjolocja.wordpress.com/feed/ torero
 http://kronika-paranoika.jogger.pl https://kronikaparanoika.wordpress.com/ https://kronikaparanoika.wordpress.com/feed/ kronika-paranoika
