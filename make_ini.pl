@@ -6,21 +6,21 @@
 use strict;
 use warnings;
 
-my %feeds=();
+my %feeds = ();
 
-while (<>){
-	if (! /^#/){
-		chomp;
-		if (/(\S+)\s+(\S+)\s+(http\S+)\s+(\S+)/){
-			$feeds{$4}=$3;
-		}
-		else {
-			print "ERROR Wrong format in line: $_\n"
-		}
-	}
+while (<>) {
+    if ( !/^#/ ) {
+        chomp;
+        if (/(\S+)\s+(\S+)\s+(http\S+)\s+(\S+)/) {
+            $feeds{$4} = $3;
+        }
+        else {
+            print "ERROR Wrong format in line: $_\n";
+        }
+    }
 }
 
-foreach my $name (sort keys %feeds){
-	print "[$feeds{$name}]\n";
-	print "name = $name\n\n"
+foreach my $name ( sort keys %feeds ) {
+    print "[$feeds{$name}]\n";
+    print "name = $name\n\n";
 }
