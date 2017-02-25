@@ -3,8 +3,8 @@
 <head>
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="robots" content="noindex, follow, noarchive" />
-<meta http-equiv=refresh content=1200 />
+<meta name="robots" content="index, follow, archive" />
+<meta name='keywords' content='blog, jogger, jogger.pl, polskie blogi, planeta'/>
 <meta name="description" content="Planeta agreguje blogi ludzi dawniej piszacych na Jogger.pl"/>
 <meta property="og:title" content="Planeta Joggera"/>
 <meta property="og:description" content="Planeta agreguje blogi ludzi dawniej piszacych na Jogger.pl"/>
@@ -31,21 +31,49 @@ img{max-width:100%;height:auto;width:auto;border:0}
 background-image: url(./jogger_logo_mini.png);background-repeat: no-repeat;background-position: 40px 0;}
 @media screen and (max-width: 800px) { body {max-width: calc(100% - 30px)} }
 </style>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.zakr.es/planetjogger","*.zakr.es/planetjogger"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//zakr.es/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//zakr.es/piwik/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </head>
 <body>
 <h1><TMPL_VAR name></h1>
 <div class=top_bar></div>
-<ul>
-<TMPL_LOOP Items>
-<li<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
-<h2><a class=author href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name ESCAPE="HTML"></a><TMPL_IF title> <a<TMPL_IF link> href="<TMPL_VAR link ESCAPE="HTML">"</TMPL_IF><TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><TMPL_VAR title></a></h2></TMPL_IF>
-<TMPL_IF content><div class="content"><TMPL_VAR content></div></TMPL_IF>
-</li>
-</TMPL_LOOP>
-</ul>
+
+<p><a href="http://jogger.pl">Jogger.pl</a> był polską platformą blogową, opartą
+  o autorski silnik i gromadzącą społeczność bloggerów. Działał przez 13 lat,
+  gromadząc ludzi, z których wielu kontynuowało znajomość także poza serwisem.
+</p>
+
+<p>W lutym 2016 nastąpiła zapowiedź zamknięcia platformy, a w maju doszło do
+  faktycznego zamknięcia serwisu. Cześć blogerów przeniosła się w inne miejsca i
+  kontynuuje pisanie blogów. Planeta ma zapewnić łączność tych blogów i ułatwić
+  odszukanie blogów ludzi, którzy kiedyś pisali na Jogger.pl.
+</p>
+
+<p>
+ Jeśli znasz jakieś blogi, których autorzy zaczynali na Jogger.pl, daj znać.
+</p>
+
+<p>Skoro dowiedziałeś się już o co chodzi, pora przejść na właściwą
+  <a href="./index.html">Planetę Joggera</a>
+</p>
+
 <hr>
 <div id=footer>
-<p><a href="./about.html">Planeta Joggera</a> agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
+<p>Planeta agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
 <ul class="simple horizontal">
 <TMPL_LOOP Channels>
 <li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
