@@ -9,7 +9,7 @@ http://torero.jogger.pl https://socjolocja.wordpress.com/ https://socjolocja.wor
 http://kronika-paranoika.jogger.pl https://kronikaparanoika.wordpress.com/ https://kronikaparanoika.wordpress.com/feed/ kronika-paranoika
 http://kanusia.jogger.pl/ http://kanusioweblogowanie.wordpress.com/ https://kanusioweblogowanie.wordpress.com/feed/ kanusia
 http://kopytny.pl http://kopytny.pl http://kopytny.pl/feed/ kopytny
-http://radiowiec.jogger.pl http://blog.radiowiec.eu http://radiowiec.ovh.org/textpattern/index.php?atom=1 radiowiec
+http://radiowiec.jogger.pl http://blog.radiowiec.eu http://blog.radiowiec.eu/atom/ radiowiec
 http://lotta-rosie.jogger.pl/ http://lottamowi.wordpress.com https://lottamowi.wordpress.com/feed/ lotta-rosie
 http://sigvatr.jogger.pl https://sigvatrblog.wordpress.com/ https://sigvatrblog.wordpress.com/feed/ sigvatr
 http://jajcus.jogger.pl/ https://blog.jajcus.net/ https://blog.jajcus.net/feed/ jajcus
