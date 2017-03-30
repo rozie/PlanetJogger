@@ -26,7 +26,7 @@ http://takiegadanie.jogger.pl/ https://takiegadanie.wordpress.com/ https://takie
 http://daromar.jogger.pl/ https://daromaar.wordpress.com/ https://daromaar.wordpress.com/feed/ daromar
 http://mt3o.jogger.pl/ http://blog.mt3o.it/ http://blog.mt3o.it/feed/ mt3o
 http://ejdzej.jogger.pl/ https://ejdzejblog.wordpress.com/ https://ejdzejblog.wordpress.com/feed/ ejdzej
-http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/eclare zar
+# SPAM http://blog.eldoras.com/ http://sukcesstrony.pl/ http://feeds.feedburner.com/eclare zar
 # http://szarak.org/ http://otwarteaudio.tk/ http://otwarteaudio.tk/feed/ szarak
 http://dozzie.jogger.pl/ TODO TODO dozzie
 http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/rss/feed.xml zuzanka
@@ -40,7 +40,7 @@ http://ekrany.jogger.pl http://ekrany.org.pl http://ekrany.org.pl/rss ekrany.org
 http://zdzichubg.jogger.pl https://enotty.pipebreaker.pl/ https://enotty.pipebreaker.pl/rss.xml zdzichubg
 http://evanrinya.jogger.pl http://nietransparentnie.pl http://feeds.feedburner.com/nietransparentnie evanrinya
 http://domel.jogger.pl/ https://blog.domelowo.pl/ https://blog.domelowo.pl/feed/ domel
-http://michalszafranski.jogger.pl/ http://www.michalszafranski.pl/ http://www.michalszafranski.pl/feed michalszafranski
+# SPAM http://michalszafranski.jogger.pl/ http://www.michalszafranski.pl/ http://www.michalszafranski.pl/feed michalszafranski
 http://bialy.jogger.pl http://blog.rczajka.pl/ http://blog.rczajka.pl/rss bialy
 http://hibana.jogger.pl/ https://pryzmatycznie.blogspot.ch/ https://pryzmatycznie.blogspot.com/feeds/posts/default hibana
 http://w-wydychanym-powietrzu.jogger.pl/ http://blog.anoriell.eu/ http://feeds.feedburner.com/anorielljog anoriell
