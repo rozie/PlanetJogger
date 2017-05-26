@@ -49,5 +49,5 @@ http://infro.jogger.pl https://infroblog.wordpress.com/ https://infroblog.wordpr
 http://adas.jogger.pl/ http://adamdziura.pl/blog/ http://adamdziura.pl/blog/feed/ adas
 http://katsu.jogger.pl/ http://katsu-and-life.weebly.com/ http://katsu-and-life.weebly.com/1/feed katsu
 http://blog.lrem.net/ http://blog.lrem.net/ http://blog.lrem.net/index.xml lrem
-http://automaciej.jogger.pl/ http://maciej.blizinski.pl/ http://maciej.blizinski.pl/index.xml automaciej
+http://automaciej.jogger.pl/ http://blizin.ski/ http://blizin.ski/index.xml automaciej
 TODO TODO https://zapisaneoffline.wordpress.com/feed/ zapisaneoffline
