@@ -1,5 +1,6 @@
 # jogger addres, new address, RSS feed, name (space separated)
-http://siwa.jogger.pl/ http://siwa.wordpress.com/ https://siwa.wordpress.com/feed/ siwa
+http://siwa.jogger.pl/ https://siwa.blog/ https://siwa.blog/feed/ siwa
+http://siwa.jogger.pl/ https://wyrypy.pl/ https://wyrypy.pl/feed/ wyrypy
 http://d9k.jogger.pl/ http://blog.d9k.info/ http://blog.d9k.info/feed/ d9k
 http://yazhubal.jogger.pl/ http://www.yazhubal.pl/blog/ http://yazhubal.pl/feed/ yazhubal
 http://kefyr.jogger.pl/ http://www.blog.artinet.one.pl/ http://www.blog.artinet.one.pl/feed/ kefyr
@@ -31,7 +32,7 @@ http://ejdzej.jogger.pl/ https://ejdzejblog.wordpress.com/ https://ejdzejblog.wo
 http://dozzie.jogger.pl/ TODO TODO dozzie
 http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/ http://zuzanka.blogitko.pl/rss/feed.xml zuzanka
 http://psz.jogger.pl/ https://blog.patryk.net/ https://blog.patryk.net/feed/ psz
-http://mina86.jogger.pl/ http://mina86.com/ http://mina86.com/atom mina86
+http://mina86.jogger.pl/ https://mina86.com/ https://mina86.com/atom mina86
 http://d33tah.net/ TODO TODO d33tah
 http://abadcafe.pl/ http://abadcafe.pl/ http://abadcafe.pl/rss abadcafe
 # SPAM http://koval.jogger.pl http://koval.com.pl/ http://koval.com.pl/feed/ koval
