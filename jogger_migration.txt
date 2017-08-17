@@ -52,3 +52,4 @@ http://katsu.jogger.pl/ http://katsu-and-life.weebly.com/ http://katsu-and-life.
 http://blog.lrem.net/ http://blog.lrem.net/ http://blog.lrem.net/index.xml lrem
 http://automaciej.jogger.pl/ http://blizin.ski/ http://blizin.ski/index.xml automaciej
 TODO TODO https://zapisaneoffline.wordpress.com/feed/ zapisaneoffline
+http://chemicalbrother.jogger.pl/ https://antifragile.pl/ https://antifragile.pl/feed/ antifragile
