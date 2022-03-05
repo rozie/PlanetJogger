@@ -53,3 +53,4 @@ http://blog.lrem.net/ http://blog.lrem.net/ http://blog.lrem.net/index.xml lrem
 http://automaciej.jogger.pl/ http://blizin.ski/ http://blizin.ski/index.xml automaciej
 http://chemicalbrother.jogger.pl/ https://antifragile.pl/ https://antifragile.pl/feed/ antifragile
 http://krystek.jogger.pl/ https://krystek.wordpress.com/ https://krystek.wordpress/feed/ krystek
+http://krystek.jogger.pl/ https://krozycki.wordpress.com/ https://krozycki.wordpress/feed/ krozycki
