@@ -55,3 +55,4 @@ http://chemicalbrother.jogger.pl/ https://antifragile.pl/ https://antifragile.pl
 http://krystek.jogger.pl/ https://krystek.wordpress.com/ https://krystek.wordpress.com/feed/ krystek
 http://krystek.jogger.pl/ https://krozycki.wordpress.com/ https://krozycki.wordpress.com/feed/ krozycki
 http://dakilla.jogger.pl/ https://horodecki.net/ https://horodecki.net/feed/ silva rerum
+http://bobiko.jogger.pl/ https://bobiko.blog/ https://bobiko.blog/rss.xml Bobiko
