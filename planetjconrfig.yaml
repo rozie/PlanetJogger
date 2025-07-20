@@ -1,0 +1,114 @@
+planet:
+  name: Planet Jogger
+  link: https://zakr.es/planetjogger/
+  feed_timeout: 3
+  new_feed_items: 3
+  output_dir: ./
+  template_files:
+    - ./index.html.tmpl
+    - ./about.html.tmpl
+feeds:
+  http://adamdziura.pl/blog/feed/:
+    name: adas
+  https://feeds.feedburner.com/anorielljog:
+    name: anoriell
+  https://antifragile.pl/feed/:
+    name: antifragile
+  http://blizin.ski/jogger/index.xml:
+    name: automaciej
+  https://bagienny.wordpress.com/feed/:
+    name: bagienny
+  https://barthalion.blog/index.xml:
+    name: barthalion
+  http://blog.rczajka.pl/rss:
+    name: bialy
+  https://feeds2.feedburner.com/BranchPrediction:
+    name: branch-prediction
+  http://cichyfragles.pl/feed/:
+    name: cichyfragles
+  https://feeds.feedburner.com/karbownicki-com:
+    name: citizen
+  http://blog.d9k.info/feed/:
+    name: d9k
+  http://blog.gadawski.pl/feed/:
+    name: dandys
+  https://daromaar.wordpress.com/feed/:
+    name: daromar
+  https://blog.domelowo.pl/feed/:
+    name: domel
+  https://ejdzejblog.wordpress.com/feed/:
+    name: ejdzej
+  http://ekrany.org.pl/rss:
+    name: ekrany.org.pl
+  https://otwarium.pl/feed/:
+    name: evanrinya
+  https://pryzmatycznie.blogspot.com/feeds/posts/default:
+    name: hibana
+  https://infroblog.wordpress.com/feed/:
+    name: infro
+  https://blog.jajcus.net/feed/:
+    name: jajcus
+  https://kanusioweblogowanie.wordpress.com/feed/:
+    name: kanusia
+  https://katsu-and-life.weebly.com/1/feed:
+    name: katsu
+  http://www.blog.artinet.one.pl/feed/:
+    name: kefyr
+  https://kutzowsky.pl/feed/:
+    name: kopytny
+  https://kronikaparanoika.wordpress.com/feed/:
+    name: kronika-paranoika
+  https://krystek.wordpress.com/feed/:
+    name: krystek
+  https://krozycki.wordpress.com/feed/:
+    name: krozycki
+  https://lottamowi.wordpress.com/feed/:
+    name: lotta-rosie
+  http://blog.lrem.net/index.xml:
+    name: lrem
+  https://mina86.com/atom:
+    name: mina86
+  http://blog.mt3o.it/feed/:
+    name: mt3o
+  http://nerdblog.pl/rss:
+    name: nerdblog
+  https://blog.patryk.net/feed/:
+    name: psz
+#  https://q84fh.net/posts/index.xml:
+#    name: q84fh
+  https://blog.radiowiec.eu/atom/:
+    name: radiowiec
+  https://zakr.es/blog/feed/:
+    name: rozie
+  http://atwa.us/feed/:
+    name: shadzik
+  https://sigvatrblog.wordpress.com/feed/:
+    name: sigvatr
+  https://horodecki.net/feed/:
+    name: silva rerum
+  https://siwa.blog/feed/:
+    name: siwa
+  https://takiegadanie.wordpress.com/feed/:
+    name: takiegadanie
+  https://socjolocja.wordpress.com/feed/:
+    name: torero
+  https://kajecik.wordpress.com/feed/:
+    name: wariat
+  https://wyrypy.pl/feed/:
+    name: wyrypy
+  http://yazhubal.pl/feed/:
+    name: yazhubal
+  https://enotty.pipebreaker.pl/rss.xml:
+    name: zdzichubg
+  https://danielgabrys.blogspot.com/feeds/posts/default/:
+    name: zone
+  https://zuzanka.blogitko.pl/rss/feed.xml:
+    name: zuzanka
+  https://blog.fl9.eu/feed.xml:
+    name: flegmatyk
+  https://blog.keepmind.eu/feed:
+    name: inzaghi89
+  https://szczezuja.wordpress.com/feed/:
+    name: Szcze<C5><BC>uja
+  https://bobiko.blog/rss.xml:
+    name: Bobiko

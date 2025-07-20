@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang=pl>
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="index, follow, archive" />
+<meta name='keywords' content='blog, jogger, jogger.pl, polskie blogi, planeta'/>
+<meta name="description" content="Planeta agreguje blogi ludzi dawniej piszacych na Jogger.pl"/>
+<meta property="og:title" content="Planeta Joggera"/>
+<meta property="og:description" content="Planeta agreguje blogi ludzi dawniej piszacych na Jogger.pl"/>
+<meta property="og:site_name" content="https://zakr.es/planetjogger/" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://zakr.es/planetjogger/" />
+<title><TMPL_VAR name></title>
+<link rel=alternate type=application/atom+xml href=/planetjogger/atom.xml title=Feed>
+<style type=text/css media=screen>
+body{font:normal medium 'Gill Sans',Optima,Verdana,sans-serif;margin: 3% auto 1em auto;max-width:73%;line-height:180%;background:#FFF}
+body div {max-width: 100%}
+a {color:#333333}
+#footer{text-align:center;font-size:small;background:#a2d1e0;color:#81a8b4}
+h1,.feedflare{display:none}
+.horizontal,.simple li{margin:0;padding:0;list-style:none;display:inline}
+.simple li:before{content:"+ "}
+.simple > li:first-child:before{content:""}
+.author{text-decoration:none;display:block;float:right;margin-left:2em;padding: 0 4pt;font-size:small;background:#e8f4f8;color:#81a8b4;}
+ul{list-style:none;margin-left:0;padding-left:0}
+li{clear:both}
+.content{margin: 1%}
+img{max-width:100%;height:auto;width:auto;border:0}
+.top_bar {height: 140px;width: 100%;background-color: #a2d1e0;border-top-width: 9px;border-top-style: solid;border-top-color: #ee4e4e;
+background-image: url(./jogger_logo_mini.png);background-repeat: no-repeat;background-position: 40px 0;}
+@media screen and (max-width: 800px) { body {max-width: calc(100% - 30px)} }
+</style>
+</head>
+<body>
+<h1><TMPL_VAR name></h1>
+<div class=top_bar></div>
+
+<p><a href="http://jogger.pl">Jogger.pl</a> był polską platformą blogową, opartą
+  o autorski silnik i gromadzącą społeczność bloggerów. Działał przez 13 lat,
+  gromadząc ludzi, z których wielu kontynuowało znajomość także poza serwisem.
+</p>
+
+<p>W lutym 2016 nastąpiła zapowiedź zamknięcia platformy, a w maju doszło do
+  faktycznego zamknięcia serwisu. Cześć blogerów przeniosła się w inne miejsca i
+  kontynuuje pisanie blogów. Planeta ma zapewnić łączność tych blogów i ułatwić
+  odszukanie blogów ludzi, którzy kiedyś pisali na Jogger.pl.
+</p>
+
+<p>
+ Jeśli znasz jakieś blogi, których autorzy zaczynali na Jogger.pl, daj znać.
+</p>
+
+<p>Skoro dowiedziałeś się już o co chodzi, pora przejść na właściwą
+  <a href="./index.html">Planetę Joggera</a>
+</p>
+
+<hr>
+<div id=footer>
+<p>Planeta agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
+<ul class="simple horizontal">
+<TMPL_LOOP Channels>
+<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+</TMPL_LOOP>
+</ul>
+<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na głównej</a>.</p>
+</div>
+</body>
+</html>

@@ -11,7 +11,7 @@
 <meta property="og:site_name" content="https://zakr.es/planetjogger/" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://zakr.es/planetjogger/" />
-<title><TMPL_VAR name></title>
+<title>{{ name }}</title>
 <link rel=alternate type=application/atom+xml href=/planetjogger/atom.xml title=Feed>
 <style type=text/css media=screen>
 body{font:normal medium 'Gill Sans',Optima,Verdana,sans-serif;margin: 3% auto 1em auto;max-width:73%;line-height:180%;background:#FFF}
@@ -33,37 +33,54 @@ background-image: url(./jogger_logo_mini.png);background-repeat: no-repeat;backg
 </style>
 </head>
 <body>
-<h1><TMPL_VAR name></h1>
+<h1>{{ name }}</h1>
 <div class=top_bar></div>
 
-<p><a href="http://jogger.pl">Jogger.pl</a> był polską platformą blogową, opartą
-  o autorski silnik i gromadzącą społeczność bloggerów. Działał przez 13 lat,
-  gromadząc ludzi, z których wielu kontynuowało znajomość także poza serwisem.
+<p><a href="http://jogger.pl">Jogger.pl</a> by<C5><82> polsk<C4><85> platform<C4><85> blogow<C4><85>, opart<C4><85>
+o autorski silnik i gromadz<C4><85>c<C4><85> spo<C5><82>eczno<C5><9B><C4><87> blogger<C3><B3>w. Dzia<C5><82>a<C5><82> przez 13 lat,
+gromadz<C4><85>c ludzi, z kt<C3><B3>rych wielu kontynuowa<C5><82>o znajomo<C5><9B><C4><87> tak<C5><BC>e poza serwisem.
 </p>
 
-<p>W lutym 2016 nastąpiła zapowiedź zamknięcia platformy, a w maju doszło do
-  faktycznego zamknięcia serwisu. Cześć blogerów przeniosła się w inne miejsca i
-  kontynuuje pisanie blogów. Planeta ma zapewnić łączność tych blogów i ułatwić
-  odszukanie blogów ludzi, którzy kiedyś pisali na Jogger.pl.
+<p>W lutym 2016 nast<C4><85>pi<C5><82>a zapowied<C5><BA> zamkni<C4><99>cia platformy, a w maju dosz<C5><82>o do
+faktycznego zamkni<C4><99>cia serwisu. Cze<C5><9B><C4><87> bloger<C3><B3>w przenios<C5><82>a si<C4><99> w inne miejsca i
+kontynuuje pisanie blog<C3><B3>w. Planeta ma zapewni<C4><87> <C5><82><C4><85>czno<C5><9B><C4><87> tych blog<C3><B3>w i u<C5><82>atwi<C4><87>
+odszukanie blog<C3><B3>w ludzi, kt<C3><B3>rzy kiedy<C5><9B> pisali na Jogger.pl.
 </p>
 
 <p>
- Jeśli znasz jakieś blogi, których autorzy zaczynali na Jogger.pl, daj znać.
+Je<C5><9B>li znasz jakie<C5><9B> dzia<C5><82>aj<C4><85>ce blogi, kt<C3><B3>rych autorzy zaczynali na Jogger.pl, daj zna<C4><87>.
 </p>
 
-<p>Skoro dowiedziałeś się już o co chodzi, pora przejść na właściwą
-  <a href="./index.html">Planetę Joggera</a>
+<p>Skoro wiesz ju<C5><BC> o co chodzi, zapraszam na w<C5><82>a<C5><9B>ciw<C4><85>
+<a href="./index.html">Planet<C4><99> Joggera</a>.
 </p>
 
 <hr>
 <div id=footer>
-<p>Planeta agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
+<p>Planeta agreguje wpisy z nast<C4><99>puj<C4><85>cych blog<C3><B3>w, kt<C3><B3>rych autorzy pisali kiedy<C5><9B> na Jogger.pl:</p>
 <ul class="simple horizontal">
-<TMPL_LOOP Channels>
-<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
-</TMPL_LOOP>
+{% for channel in Channels -%}
+<li><a href="{{ channel.link | e }}" title="{{ channel.title | e }}">{{ channel.name }}</a></li>
+{% endfor %}
 </ul>
-<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na głównej</a>.</p>
+<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na g<C5><82><C3><B3>wnej</a>.</p>
+<p><a rel="nofollow" href="https://buycoffee.to/rozie" target="_blank"><img src="https://buycoffee.to/img/share-button-primary.png" style="width: 136px; height: 36px" alt="Postaw mi kaw<C4><<99> na buycoffee.to"></a></p>
 </div>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDomains", ["*.zakr.es/planetjogger","*.zakr.es/planetjogger"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//zakr.es/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 8]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//zakr.es/piwik/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 </body>
 </html>

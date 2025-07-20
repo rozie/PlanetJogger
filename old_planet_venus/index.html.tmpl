@@ -11,7 +11,7 @@
 <meta property="og:site_name" content="https://zakr.es/planetjogger/" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://zakr.es/planetjogger/" />
-<title>{{ name }}</title>
+<title><TMPL_VAR name></title>
 <link rel=alternate type=application/atom+xml href=/planetjogger/atom.xml title=Feed>
 <style type=text/css media=screen>
 body{font:normal medium 'Gill Sans',Optima,Verdana,sans-serif;margin: 3% auto 1em auto;max-width:73%;line-height:180%;background:#FFF}
@@ -33,43 +33,25 @@ background-image: url(./jogger_logo_mini.png);background-repeat: no-repeat;backg
 </style>
 </head>
 <body>
-<h1>{{ name }}</h1>
+<h1><TMPL_VAR name></h1>
 <div class=top_bar></div>
 <ul>
-{% for item in Items %}
-<li{% if item.channel_language %} lang="{{ item.channel_language }}"{% endif %}>
-<h2><a class=author href="{{ item.feedlink | e }}" title="{{ item.blogtitle | e }}">{{ item.name | e }}</a>{% if item.title %} <a{% if item.link %} href="{{ item.link | e }}"{% endif %}{% if item.title_language %} lang="{{ item.title_language }}"{% endif %}>{{ item.title }}</a></h2>{% endif %}
-{% if item.description %}<div class="content">{{ item.description }}</div>{% endif %}
+<TMPL_LOOP Items>
+<li<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
+<h2><a class=author href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name ESCAPE="HTML"></a><TMPL_IF title> <a<TMPL_IF link> href="<TMPL_VAR link ESCAPE="HTML">"</TMPL_IF><TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><TMPL_VAR title></a></h2></TMPL_IF>
+<TMPL_IF content><div class="content"><TMPL_VAR content></div></TMPL_IF>
 </li>
-{% endfor %}
-
+</TMPL_LOOP>
 </ul>
 <hr>
 <div id=footer>
-<p><a href="./about.html">Planeta Joggera</a> agreguje wpisy z nast<C4><99>puj<C4><85>cych blog<C3><B3>w, kt<C3><B3>rych autorzy pisali kiedy<C5><9B> na Jogger.pl:</p>
+<p><a href="./about.html">Planeta Joggera</a> agreguje wpisy z następujących blogów, których autorzy pisali kiedyś na Jogger.pl:</p>
 <ul class="simple horizontal">
-{% for channel in Channels -%}
-<li><a href="{{ channel.link | e }}" title="{{ channel.title | e }}">{{ channel.name }}</a></li>
-{% endfor %}
+<TMPL_LOOP Channels>
+<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+</TMPL_LOOP>
 </ul>
-<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na g<C5><82><C3><B3>wnej</a>.</p>
-<p><a rel="nofollow" href="https://buycoffee.to/rozie" target="_blank"><img src="https://buycoffee.to/img/share-button-primary.png" style="width: 136px; height: 36px" alt="Postaw mi kaw<C4><<99> na buycoffee.to"></a></p>
+<p>Kod i konfiguracja: <a href="https://github.com/rozie/PlanetJogger">repozytorium GitHub</a>. Kontakt: <a href="https://zakr.es/">znajdziesz na głównej</a>.</p>
 </div>
-<!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(["setDomains", ["*.zakr.es/planetjogger","*.zakr.es/planetjogger"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//zakr.es/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 8]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//zakr.es/piwik/piwik.php?idsite=8" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
 </body>
 </html>
