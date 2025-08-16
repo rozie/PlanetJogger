@@ -7,6 +7,10 @@ planet:
   template_files:
     - ./index.html.tmpl
     - ./about.html.tmpl
+  rss_filename: "planet.rss"
+  feed_lang: "pl"
+  feed_description: "Planet Jogger - RSS feed"
+
 feeds:
   http://adamdziura.pl/blog/feed/:
     name: adas
