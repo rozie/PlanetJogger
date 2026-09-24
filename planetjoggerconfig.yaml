@@ -3,17 +3,19 @@ planet:
   link: https://zakr.es/planetjogger/
   feed_timeout: 3
   new_feed_items: 3
+  items_for_planet: 20
   output_dir: ./
   template_files:
     - ./index.html.tmpl
     - ./about.html.tmpl
+
   rss_filename: "planet.rss"
   feed_lang: "pl"
   feed_description: "Planet Jogger - RSS feed"
 
 feeds:
-  http://adamdziura.pl/blog/feed/:
-    name: adas
+#  http://adamdziura.pl/blog/feed/:
+#    name: adas
   https://feeds.feedburner.com/anorielljog:
     name: anoriell
   https://antifragile.pl/feed/:
@@ -24,22 +26,22 @@ feeds:
     name: bagienny
   https://barthalion.blog/index.xml:
     name: barthalion
-  http://blog.rczajka.pl/rss:
-    name: bialy
+#  http://blog.rczajka.pl/rss:
+#    name: bialy
   https://feeds2.feedburner.com/BranchPrediction:
     name: branch-prediction
   http://cichyfragles.pl/feed/:
     name: cichyfragles
   https://feeds.feedburner.com/karbownicki-com:
     name: citizen
-  http://blog.d9k.info/feed/:
-    name: d9k
+#  http://blog.d9k.info/feed/:
+#    name: d9k
   http://blog.gadawski.pl/feed/:
     name: dandys
   https://daromaar.wordpress.com/feed/:
     name: daromar
-  https://blog.domelowo.pl/feed/:
-    name: domel
+#  https://blog.domelowo.pl/feed/:
+#    name: domel
   https://ejdzejblog.wordpress.com/feed/:
     name: ejdzej
   http://ekrany.org.pl/rss:
@@ -56,7 +58,7 @@ feeds:
     name: kanusia
   https://katsu-and-life.weebly.com/1/feed:
     name: katsu
-  http://www.blog.artinet.one.pl/feed/:
+  https://blog.artinet.one.pl/feed/:
     name: kefyr
   https://kutzowsky.pl/feed/:
     name: kopytny
@@ -72,8 +74,8 @@ feeds:
     name: lrem
   https://mina86.com/atom:
     name: mina86
-  http://blog.mt3o.it/feed/:
-    name: mt3o
+#  http://blog.mt3o.it/feed/:
+#    name: mt3o
   http://nerdblog.pl/rss:
     name: nerdblog
   https://blog.patryk.net/feed/:
@@ -98,10 +100,10 @@ feeds:
     name: torero
   https://kajecik.wordpress.com/feed/:
     name: wariat
-  https://wyrypy.pl/feed/:
+  https://wyrypykamperem.wordpress.com/feed/:
     name: wyrypy
-  http://yazhubal.pl/feed/:
-    name: yazhubal
+#  http://yazhubal.pl/feed/:
+#    name: yazhubal
   https://enotty.pipebreaker.pl/rss.xml:
     name: zdzichubg
   https://danielgabrys.blogspot.com/feeds/posts/default/:
@@ -113,6 +115,8 @@ feeds:
   https://blog.keepmind.eu/feed:
     name: inzaghi89
   https://szczezuja.wordpress.com/feed/:
-    name: Szcze<C5><BC>uja
+    name: Szczeżuja
   https://bobiko.blog/rss.xml:
     name: Bobiko
+  https://skolima.blogspot.com/feeds/posts/default:
+    name: skolima
